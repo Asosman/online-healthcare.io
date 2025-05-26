@@ -110,8 +110,8 @@ let append = (data) => {
             </div>
             <div class="priceDiv">
                 <div>
-                    MRP <span class= "mk_linethro">₹${actualprice}</span> <span class="mk_green">${off}% OFF</span> 
-                    <p>₹${price}</p> 
+                    MRP <span class= "mk_linethro">₦${actualprice}</span> <span class="mk_green">${off}% OFF</span> 
+                    <p>₦${price}</p> 
                 </div>
                 <div class="addtoCartBtn">
                     

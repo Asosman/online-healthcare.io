@@ -107,7 +107,7 @@ function displayproduct(data){
         let capsules=document.createElement("p");
         capsules.textContent=elem.count;
         let capsuleprice= document.createElement("p");
-        capsuleprice.textContent= "₹"+elem.price;
+        capsuleprice.textContent= "₦"+elem.price;
         
 
         capsulediv.append(capsules, capsuleprice)
@@ -148,11 +148,11 @@ function displayproduct(data){
         circleicon.setAttribute("class", "fa-regular fa-circle-dot");
 
         let normalprice = document.createElement("p");
-        normalprice.textContent= "₹"+elem.price;
+        normalprice.textContent= "₦"+elem.price;
 
         let dashprice= document.createElement("p");
-        // dashprice.textContent= "₹" + (elem.price+100);
-        dashprice.textContent= "₹" + Math.floor(elem.price/(1-elem.off/100))
+        // dashprice.textContent= "₦" + (elem.price+100);
+        dashprice.textContent= "₦" + Math.floor(elem.price/(1-elem.off/100))
         dashprice.style.textDecoration = "line-through";
 
         let discountdiv= document.createElement("div");
@@ -179,7 +179,7 @@ function displayproduct(data){
         careplantextdiv.setAttribute("class", "careplantextdiv");
 
         let price = document.createElement("p");
-        price.textContent= "₹"+elem.price;
+        price.textContent= "₦"+elem.price;
 
         let careplanimage= document.createElement("img");
         careplanimage.src= "https://onemg.gumlet.io/v1613645053/marketing/phb2bz61etrdmuurfdoq.png"

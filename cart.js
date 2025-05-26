@@ -54,7 +54,7 @@ if(carePlan == "true") {
                    <p>See all benefits <i class="fa-solid fa-circle-chevron-right"></i></p>
               </div>
               <div>
-                   <p id="priceP"><span id="mrpLine">₹549</span> ₹165</p>
+                   <p id="priceP"><span id="mrpLine">₦549</span> ₦165</p>
                    <p id="removePlan">REMOVE</p>
               </div>
          </div>
@@ -65,7 +65,7 @@ if(carePlan == "true") {
     let cpDiv = document.getElementById("cPdiv")
     cpDiv.innerHTML = `
          <p>Care Plan</p>
-         <p id="cpValue">₹0</p>
+         <p id="cpValue">₦0</p>
     `
 
     let removePlan = () => {
@@ -140,7 +140,7 @@ function getdata(el,cont){
 
     let p1 = document.createElement("P")
     p1.setAttribute("id","firstpara")
-    p1.innerText=`₹${el.price}`;
+    p1.innerText=`₦${el.price}`;
 
     let p2 = document.createElement("P")
     p2.setAttribute("id","secondpara")
@@ -154,7 +154,7 @@ function getdata(el,cont){
     let p3 = document.createElement("P")
     p3.setAttribute("id","firstpara")
 
-    p3.innerText= "₹"+Math.floor(el.price-((el.price*el.off)/100))
+    p3.innerText= "₦"+Math.floor(el.price-((el.price*el.off)/100))
     console.log(el.price)
     let p4 = document.createElement("P")
     p4.setAttribute("id","secondpara")
@@ -217,7 +217,7 @@ function displayItems() {
         name.textContent = elm.title;
 
         var price = document.createElement("p");
-        price.textContent = "MRP ₹ - " + elm.price;
+        price.textContent = "MRP ₦ - " + elm.price;
 
         div.append(image, name, price);
 
@@ -273,14 +273,14 @@ function append(data){
          let h32 = document.createElement("h3")
          h32.setAttribute("id","titlepriceh3")
          let dis_price=Math.floor(el.price-((el.price*el.off)/100))
-         h32.innerText= "₹"+ (dis_price*el.quantity)
+         h32.innerText= "₦"+ (dis_price*el.quantity)
          div2.append(h31,h32)
          let div3=document.createElement("div")
          div3.setAttribute("id","thirddiv")
          div3.innerHTML=`${el.type} of ${el.count}`
          let div4=document.createElement("div")
          div4.setAttribute("id","fourthdiv")
-         div4.innerHTML=`<p id="pricepara"> MRP <span id="pricespan">₹${el.price*el.quantity}</span></p>`
+         div4.innerHTML=`<p id="pricepara"> MRP <span id="pricespan">₦${el.price*el.quantity}</span></p>`
          let div5=document.createElement("div")
          div5.setAttribute("id","fifthdiv")
          div5.append(div3,div4)
@@ -373,30 +373,30 @@ function removeme(el,index){
 function totalamount(data){
     let sum = data.reduce((accumulator, el) => {
          return accumulator + el.price*el.quantity},0)
-    document.getElementById("totalp").innerHTML=`₹${sum}`
+    document.getElementById("totalp").innerHTML=`₦${sum}`
     
     let sum2 = data.reduce((accumulator, el) => {
          return accumulator + (Math.ceil((el.price*el.off)/100)*el.quantity)
     },0)
     
-    document.getElementById("discp").innerHTML=`-₹${sum2}`
+    document.getElementById("discp").innerHTML=`-₦${sum2}`
     
     let sum3=0;
     let packagecharge=0;
     if(sum<500){
-         document.getElementById("packagingp").innerText=`₹29`
+         document.getElementById("packagingp").innerText=`₦29`
          sum3=sum-sum2+29
          packagecharge=29
     // console.log(sum3)
     }
     else if(sum>500 && sum<1000){
-         document.getElementById("packagingp").innerText=`₹19`
+         document.getElementById("packagingp").innerText=`₦19`
          sum3=sum-sum2+19
          packagecharge=19
     
     }
     else{
-         document.getElementById("packagingp").innerText=`₹5`
+         document.getElementById("packagingp").innerText=`₦5`
          sum3=sum-sum2+5
          packagecharge=5
     
@@ -416,15 +416,15 @@ function totalamount(data){
     
     if(carePlan == "true") {
 
-         document.getElementById("cpValue").innerText=`₹${165}`
-         document.getElementById("tobepaidp").innerText=`₹${sum3 + 165}`
+         document.getElementById("cpValue").innerText=`₦${165}`
+         document.getElementById("tobepaidp").innerText=`₦${sum3 + 165}`
     }
     else {
-         document.getElementById("tobepaidp").innerText=`₹${sum3}`
+         document.getElementById("tobepaidp").innerText=`₦${sum3}`
     } 
 
 
-    document.getElementById("totalsavp").innerText=`₹${sum2}`
+    document.getElementById("totalsavp").innerText=`₦${sum2}`
     document.getElementById("totalsavp").style.color="#1aab2a"
     document.getElementById("totalsavp").style.fontSize="16px"
 }

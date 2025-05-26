@@ -13,8 +13,8 @@ let checkuplistarr = [
     "test": "Includes 78 tests",
     "image": "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
     "rating": "4.9 ⭐",
-    "price": "₹ 2099",
-    "dis": "₹ 4198",
+    "price": "N 2099",
+    "dis": "N 4198",
     "off": "50% Off"
   },
   {
@@ -23,8 +23,8 @@ let checkuplistarr = [
     "test": "Includes 78 tests",
     "image": "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
     "rating": "4.9 ⭐",
-    "price": "₹ 2099",
-    "dis": "₹ 4198",
+    "price": "N 2099",
+    "dis": "N 4198",
     "off": "50% Off"
   },
   {
@@ -33,8 +33,8 @@ let checkuplistarr = [
     "test": "Includes 78 tests",
     "image": "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
     "rating": "4.9 ⭐",
-    "price": "₹ 2099",
-    "dis": "₹ 4198",
+    "price": "N 2099",
+    "dis": "N 4198",
     "off": "50% Off"
   },
   {
@@ -43,8 +43,8 @@ let checkuplistarr = [
     "test": "Includes 78 tests",
     "image": "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
     "rating": "4.9 ⭐",
-    "price": "₹ 2099",
-    "dis": "₹ 4198",
+    "price": "N 2099",
+    "dis": "N 4198",
     "off": "50% Off"
   },
   {
@@ -53,8 +53,8 @@ let checkuplistarr = [
     "test": "Includes 78 tests",
     "image": "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
     "rating": "4.9 ⭐",
-    "price": "₹ 2099",
-    "dis": "₹ 4198",
+    "price": "N 2099",
+    "dis": "N 4198",
     "off": "50% Off"
   },
   {
@@ -63,8 +63,8 @@ let checkuplistarr = [
     "test": "Includes 78 tests",
     "image": "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
     "rating": "4.9 ⭐",
-    "price": "₹ 2099",
-    "dis": "₹ 4198",
+    "price": "N 2099",
+    "dis": "N 4198",
     "off": "50% Off"
   },
   // {
@@ -73,8 +73,8 @@ let checkuplistarr = [
   //   "test": "Includes 78 tests",
   //   "image": "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
   //   "rating": "4.9 ⭐",
-  //   "price": "₹ 2099",
-  //   "dis": "₹ 4198",
+  //   "price": "₦ 2099",
+  //   "dis": "₦ 4198",
   //   "off": "50% Off"
   //   },
   //   {
@@ -83,8 +83,8 @@ let checkuplistarr = [
   //   "test": "Includes 78 tests",
   //   "image": "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
   //   "rating": "4.9 ⭐",
-  //   "price": "₹ 2099",
-  //   "dis": "₹ 4198",
+  //   "price": "₦ 2099",
+  //   "dis": "₦ 4198",
   //   "off": "50% Off"
   //   },
   //   {
@@ -93,8 +93,8 @@ let checkuplistarr = [
   //   "test": "Includes 78 tests",
   //   "image": "https://onemg.gumlet.io/diagnostics/b1f8f81e-5677-11ec-9fd9-0a65f29f7340.png?format=auto",
   //   "rating": "4.9 ⭐",
-  //   "price": "₹ 2099",
-  //   "dis": "₹ 4198",
+  //   "price": "₦ 2099",
+  //   "dis": "₦ 4198",
   //   "off": "50% Off"
   //   },
 ]
@@ -142,13 +142,13 @@ let popularlistarr = [
 let brandlistarr = [
   {
     "id": 1,
-    "name": "Zandu",
+    "name": "Juhel",
     "image": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/2236c9a9-37c5-4132-aa2c-c616c7b62980.png",
     
   },
   {
       "id": 2,
-      "name": "Dr. Morepen",
+      "name": "Dana",
       "image": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/d0a7a1ef-7196-42e1-80a8-1c027f6d5224.png",
   },
   {
@@ -158,8 +158,8 @@ let brandlistarr = [
   },
   {
       "id": 4,
-      "name": "Mamaearth",
-      "image": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/3489fa92-fdd4-4601-98e0-326d3391c1f3.png"
+      "name": "Emzor",
+      "image": "https://images.app.goo.gl/5eBqd  "
   },
   {
     "id": 5,
@@ -174,7 +174,7 @@ let brandlistarr = [
 
   {
     "id": 7,
-    "name": "Dr Willmar Schwabe",
+    "name": "Unique",
     "image": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/3acf77f5-ca61-48ac-87b8-00d163d37e31.png"
 },
 // {
