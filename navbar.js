@@ -51,7 +51,6 @@ function navbar() {
         <div id="inputnavright1">
             <div>
                <select name="city" id="city">
-  <option value="">--Select State--</option>
   <option value="Abia">Abia</option>
   <option value="Adamawa">Adamawa</option>
   <option value="Akwa Ibom">Akwa Ibom</option>
